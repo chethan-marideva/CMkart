@@ -25,7 +25,7 @@ namespace CMKart.Controllers
 
         public IActionResult Privacy()
         {
-            System.Diagnostics.Trace.Write("hello from trace in Privacy");
+            System.Diagnostics.Trace.WriteLine("hello from trace in Privacy");
             return View();
         }
 

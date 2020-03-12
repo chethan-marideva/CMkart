@@ -1,0 +1,15 @@
+﻿@model  IEnumerable<CMKart.Models.ProductCategory>
+
+
+<div>
+
+    @foreach(var p in Model)
+    {
+        
+        @Html.ActionLink(p.Name,"GetProducts","Product")
+   
+       //@Html.DisplayFor(m => p.Name)
+    <br />
+    }
+
+</div>
